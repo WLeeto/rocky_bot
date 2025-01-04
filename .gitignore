@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Виртуальное окружение
+venv/
+env/
+ENV/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Файлы окружения
+.env
+.env.*
+!.env.example
+
+# Docker
+.docker/
+
+# Логи
+*.log
+
+# Временные файлы
+*.tmp
+*.bak
+*.swp
+*~
+
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Файлы базы данных
+*.sqlite3
+*.db
+
+# Другие специфичные для проекта файлы/директории
+node_modules/
+sandbox.py
